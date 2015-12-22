@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\UnityClaro_10_Noviembre_02\Assets\Scripts\controladorPrincipalInv.cs">
+    <Files>
+      <File FileName="Assets\Scripts\volver.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\controladorPrincipalInv2.cs" Line="4" Column="38" />
+      <File FileName="..\UnityClaro_10_Noviembre_02\Assets\Scripts\controladorPrincipalInv.cs" Line="26" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

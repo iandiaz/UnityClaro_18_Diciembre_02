@@ -1,0 +1,97 @@
+v 1.0.0
+
+Initial version
+----------------------------------------------------------------------------------------
+v 1.0.1 
+
+Additions/Changes :
+
+• Slipstream capability
+• New racer name prefab
+• Improved AI
+
+Fixes :
+
+• Minor bug fixes
+----------------------------------------------------------------------------------------
+v 1.0.2 
+
+Additions/Changes :
+
+• Improved AI (New behavior)
+• Improved car physics
+• Boost, steer helper,  traction & steering wheel options added to Car_Controller.cs
+• Brake Input added
+• Brakezones depreciated
+• Multiple camera views
+• More template cars
+• Text fader(TextAlpha.cs)
+• Cars now load from Resources/PlayerCars folder
+
+Fixes :
+
+• Minor bug fixes
+----------------------------------------------------------------------------------------
+v 1.0.3 
+
+Additions/Changes :
+
+• Wheel surface detection added to Wheels.cs
+• Speedometer UI support
+• InputType & SteerType enums added to PlayerControl.cs for easier setup.
+
+Fixes :
+
+• Minor bug fixes
+----------------------------------------------------------------------------------------
+v 1.0.3b
+
+Additions/Changes :
+
+• Display formats added to RacerName.cs
+
+Fixes :
+
+• AI respawn bug after race completion
+• AI input bug
+----------------------------------------------------------------------------------------
+v 1.0.4
+
+Additions/Changes :
+
+• TimeTrial race type
+• Ghost car
+• Track selection
+• Screen fade in / out
+• Race countdown delay option added
+• Mobile UI prefab for even easier mobile setup
+• Waypoint arrow support(WaypointArrow.cs)
+• RaceManager.cs FormatTime() used to format time strings
+• RaceUI displays "Running..." or "Knocked out" for an AI that hasn't finished or has been knocked out
+• Added 'time' param to RaceUI.ShowRaceInfo() routine
+• Path creator & Spawnpoint container are now created at the scene view cam position rather than (0,0,0)
+
+Fixes :
+
+• Minor bug fixes
+----------------------------------------------------------------------------------------
+v 1.0.5
+
+Additions/Changes :
+
+• Speed Trap race type
+• Improved AI
+• RaceUI in-race standings
+• Checkpoints(Speedtrap)
+• Minor changes made to RaceManager / RaceUI Custom Inspector
+• Wrongway respawn option added to Car_Controller.cs
+• RaceManager CompleteRace() replaced with EndRace()
+• New F1 car prefabs(Black, Orange & Yellow)
+
+Fixes :
+
+• Fixed bugs with the RankManager.cs racerRanks List
+• Fixed a wrong way detection bug
+• Fixed a ghost bug with vehicles that have multiple materials
+• Fixed a bug where the ghost vehicle would emit skid particles
+----------------------------------------------------------------------------------------
