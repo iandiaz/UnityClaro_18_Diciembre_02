@@ -85,6 +85,8 @@ public class FBPuntajes : MonoBehaviour {
             {
                 var entry = (Dictionary<string, object>)score;
                 var user = (Dictionary<string, object>)entry["user"];
+				var puntos = entry["score"].ToString();
+				if(int.Parse(puntos)==0) continue;
 
                     if (contador == 1)
                     {
