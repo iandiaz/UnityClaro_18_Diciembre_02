@@ -41,7 +41,6 @@ public class RaceUI : MonoBehaviour {
     public Text bestLapTime;
     public Text totalTime;
     public Text countdown;
-    public Text countdown1;
     public Text raceInfo;
     public Text wrongwayText;
     public List<RaceStandings> raceStandings = new List<RaceStandings>();
