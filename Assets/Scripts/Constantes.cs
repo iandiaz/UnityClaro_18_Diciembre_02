@@ -8,8 +8,10 @@ public class Constantes : MonoBehaviour {
 
 	public static string carselected;
 	public static ArrayList listaPuntajes;
+    public static ArrayList listaPuntajesfb;
+    public static ArrayList scorelist;
 
-	public void setCarSelected(string selection){
+    public void setCarSelected(string selection){
 		carselected = selection;
 	}
 }
