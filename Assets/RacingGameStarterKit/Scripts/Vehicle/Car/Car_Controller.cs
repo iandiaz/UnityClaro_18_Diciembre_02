@@ -124,7 +124,7 @@ public class Car_Controller : MonoBehaviour {
             {
                 RespawnTimer += 1;
                 Debug.Log("Tiempo iniciando" + RespawnTimer);
-                RespawnTimer++;
+                
             }
 
             else
@@ -132,7 +132,7 @@ public class Car_Controller : MonoBehaviour {
                 RespawnTimer = 0;
             };     
         }
-        if (RespawnTimer >= 250)
+        if (RespawnTimer >= 200)
         {
             Debug.Log("Tiempo terminado");
 
